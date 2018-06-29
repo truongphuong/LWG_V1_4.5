@@ -1,0 +1,9 @@
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\bin\Release\Nop.Controls.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\bin\Release\Nop.Controls.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\bin\Release\Nop.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\bin\Release\Nop.Common.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\obj\Release\Nop.Controls.csprojAssemblyReference.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\obj\Release\Nop.Controls.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\obj\Release\Nop.Controls.csproj.CopyComplete
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\obj\Release\Nop.Controls.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Controls\obj\Release\Nop.Controls.pdb

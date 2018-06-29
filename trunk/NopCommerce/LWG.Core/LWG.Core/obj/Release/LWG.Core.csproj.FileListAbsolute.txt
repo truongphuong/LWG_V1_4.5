@@ -1,0 +1,12 @@
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\bin\Release\LWG.Core.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\bin\Release\LWG.Core.dll
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\bin\Release\LWG.Core.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\bin\Release\EntityFramework.dll
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\bin\Release\EntityFramework.SqlServer.dll
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\bin\Release\EntityFramework.xml
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\bin\Release\EntityFramework.SqlServer.xml
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\obj\Release\LWG.Core.csprojAssemblyReference.cache
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\obj\Release\LWG.Core.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\obj\Release\LWG.Core.csproj.CopyComplete
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\obj\Release\LWG.Core.dll
+D:\Project\LWG_V1\trunk\NopCommerce\LWG.Core\LWG.Core\obj\Release\LWG.Core.pdb

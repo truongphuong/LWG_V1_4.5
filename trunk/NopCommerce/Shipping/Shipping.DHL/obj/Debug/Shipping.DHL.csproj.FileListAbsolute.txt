@@ -1,0 +1,99 @@
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Shipping.DHL.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Shipping.DHL.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Nop.BusinessLogic.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Nop.Common.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Nop.DataAccess.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\LWG.Core.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\MigraDoc.Rendering.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\PdfSharp.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Ionic.Zip.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\LWG.Business.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\PdfSharp.Charting.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Nop.BusinessLogic.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Nop.BusinessLogic.xml
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Nop.Common.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Nop.DataAccess.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\Nop.DataAccess.xml
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\LWG.Core.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\bin\Debug\LWG.Business.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\obj\Debug\ResolveAssemblyReference.cache
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\obj\Debug\Shipping.DHL.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping.DHL\obj\Debug\Shipping.DHL.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Shipping.DHL.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Shipping.DHL.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.Common.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Core.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\MigraDoc.Rendering.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\PdfSharp.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Ionic.Zip.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Business.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\PdfSharp.Charting.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.xml
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.Common.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.xml
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Core.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Business.pdb
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\obj\Debug\ResolveAssemblyReference.cache
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.dll
+D:\Vinasource\LUDWIG\Ludwig Masters\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.csprojResolveAssemblyReference.cache
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.csproj.CoreCompileInputs.cache
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Shipping.DHL.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Shipping.DHL.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Business.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.Common.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\MigraDoc.DocumentObjectModel.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\MigraDoc.Rendering.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Core.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Ionic.Zip.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\PdfSharp.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\PdfSharp.Charting.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.xml
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.dll.config
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.Common.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Business.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.xml
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Core.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Core.dll.config
+H:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.csproj.CopyComplete
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Shipping.DHL.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Shipping.DHL.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Business.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\MigraDoc.Rendering.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Core.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Ionic.Zip.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\PdfSharp.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\PdfSharp.Charting.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.xml
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.BusinessLogic.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.Common.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Business.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\Nop.DataAccess.xml
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Core.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Core.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.csproj.CopyComplete
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\EntityFramework.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\LWG.Business.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\bin\Debug\EntityFramework.xml
+D:\Project\LWG_V1\trunk\NopCommerce\Shipping\Shipping.DHL\obj\Debug\Shipping.DHL.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\bin\Release\Nop.DataAccess.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\bin\Release\Nop.DataAccess.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Release\Nop.DataAccess.csprojAssemblyReference.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Release\Nop.DataAccess.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Release\Nop.DataAccess.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Release\Nop.DataAccess.pdb

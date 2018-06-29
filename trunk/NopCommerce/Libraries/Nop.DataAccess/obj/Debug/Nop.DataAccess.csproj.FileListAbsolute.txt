@@ -1,0 +1,14 @@
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\bin\Debug\Nop.DataAccess.XML
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\bin\Debug\Nop.DataAccess.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\bin\Debug\Nop.DataAccess.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Debug\Nop.DataAccess.csprojResolveAssemblyReference.cache
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Debug\Nop.DataAccess.csproj.CoreCompileInputs.cache
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Debug\Nop.DataAccess.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Debug\Nop.DataAccess.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\bin\Debug\Nop.DataAccess.XML
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\bin\Debug\Nop.DataAccess.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\bin\Debug\Nop.DataAccess.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Debug\Nop.DataAccess.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Debug\Nop.DataAccess.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Debug\Nop.DataAccess.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess\obj\Debug\Nop.DataAccess.csprojAssemblyReference.cache

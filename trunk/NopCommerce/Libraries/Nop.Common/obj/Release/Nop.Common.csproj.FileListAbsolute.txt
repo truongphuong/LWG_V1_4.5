@@ -1,0 +1,5 @@
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\bin\Release\Nop.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\bin\Release\Nop.Common.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Release\Nop.Common.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Release\Nop.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Release\Nop.Common.pdb

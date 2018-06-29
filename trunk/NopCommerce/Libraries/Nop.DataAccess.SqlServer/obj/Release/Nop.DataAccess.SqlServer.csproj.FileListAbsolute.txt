@@ -1,0 +1,16 @@
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Nop.DataAccess.SqlServer.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Nop.DataAccess.SqlServer.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Nop.DataAccess.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\bin\Release\Nop.DataAccess.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\obj\Release\Nop.DataAccess.SqlServer.csprojAssemblyReference.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\obj\Release\Nop.DataAccess.SqlServer.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\obj\Release\Nop.DataAccess.SqlServer.csproj.CopyComplete
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\obj\Release\Nop.DataAccess.SqlServer.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.DataAccess.SqlServer\obj\Release\Nop.DataAccess.SqlServer.pdb

@@ -1,0 +1,10 @@
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\bin\Debug\Nop.Common.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\bin\Debug\Nop.Common.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Debug\Nop.Common.csproj.CoreCompileInputs.cache
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Debug\Nop.Common.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Debug\Nop.Common.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\bin\Debug\Nop.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\bin\Debug\Nop.Common.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Debug\Nop.Common.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Debug\Nop.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\Nop.Common\obj\Debug\Nop.Common.pdb

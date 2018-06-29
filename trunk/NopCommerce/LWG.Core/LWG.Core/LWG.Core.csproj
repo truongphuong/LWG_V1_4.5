@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA52CA62-7054-4FAD-8197-56B20D5F5442}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LWG.Core</RootNamespace>
+    <AssemblyName>LWG.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IDbContext.cs" />
+    <Compile Include="Models\LudwigContext.cs" />
+    <Compile Include="Models\lwg_Audio.cs" />
+    <Compile Include="Models\lwg_Catalog.cs" />
+    <Compile Include="Models\lwg_CatalogGenre.cs" />
+    <Compile Include="Models\lwg_CatalogInstrumentSearch.cs" />
+    <Compile Include="Models\lwg_CatalogNameSearch.cs" />
+    <Compile Include="Models\lwg_CatalogPublisher.cs" />
+    <Compile Include="Models\lwg_CatalogTitle.cs" />
+    <Compile Include="Models\lwg_CatalogTitleSearch.cs" />
+    <Compile Include="Models\lwg_Dealer.cs" />
+    <Compile Include="Models\lwg_Genre.cs" />
+    <Compile Include="Models\lwg_HtmlContent.cs" />
+    <Compile Include="Models\lwg_InstrTitle.cs" />
+    <Compile Include="Models\lwg_Instrumental.cs" />
+    <Compile Include="Models\lwg_LicenseForm.cs" />
+    <Compile Include="Models\lwg_Period.cs" />
+    <Compile Include="Models\lwg_PeriodMapping.cs" />
+    <Compile Include="Models\lwg_Person.cs" />
+    <Compile Include="Models\lwg_PersonInRole.cs" />
+    <Compile Include="Models\lwg_Publisher.cs" />
+    <Compile Include="Models\lwg_ReprintSource.cs" />
+    <Compile Include="Models\lwg_ReprintSourceMapping.cs" />
+    <Compile Include="Models\lwg_Role.cs" />
+    <Compile Include="Models\lwg_Series.cs" />
+    <Compile Include="Models\lwg_SeriesMapping.cs" />
+    <Compile Include="Models\lwg_ShippingConvertionConfig.cs" />
+    <Compile Include="Models\lwg_TitleType.cs" />
+    <Compile Include="Models\lwg_Video.cs" />
+    <Compile Include="Models\Mapping\lwg_AudioMap.cs" />
+    <Compile Include="Models\Mapping\lwg_CatalogGenreMap.cs" />
+    <Compile Include="Models\Mapping\lwg_CatalogInstrumentSearchMap.cs" />
+    <Compile Include="Models\Mapping\lwg_CatalogMap.cs" />
+    <Compile Include="Models\Mapping\lwg_CatalogNameSearchMap.cs" />
+    <Compile Include="Models\Mapping\lwg_CatalogPublisherMap.cs" />
+    <Compile Include="Models\Mapping\lwg_CatalogTitleMap.cs" />
+    <Compile Include="Models\Mapping\lwg_CatalogTitleSearchMap.cs" />
+    <Compile Include="Models\Mapping\lwg_DealerMap.cs" />
+    <Compile Include="Models\Mapping\lwg_GenreMap.cs" />
+    <Compile Include="Models\Mapping\lwg_HtmlContentMap.cs" />
+    <Compile Include="Models\Mapping\lwg_InstrTitleMap.cs" />
+    <Compile Include="Models\Mapping\lwg_InstrumentalMap.cs" />
+    <Compile Include="Models\Mapping\lwg_LicenseFormMap.cs" />
+    <Compile Include="Models\Mapping\lwg_PeriodMap.cs" />
+    <Compile Include="Models\Mapping\lwg_PeriodMappingMap.cs" />
+    <Compile Include="Models\Mapping\lwg_PersonInRoleMap.cs" />
+    <Compile Include="Models\Mapping\lwg_PersonMap.cs" />
+    <Compile Include="Models\Mapping\lwg_PublisherMap.cs" />
+    <Compile Include="Models\Mapping\lwg_ReprintSourceMap.cs" />
+    <Compile Include="Models\Mapping\lwg_ReprintSourceMappingMap.cs" />
+    <Compile Include="Models\Mapping\lwg_RoleMap.cs" />
+    <Compile Include="Models\Mapping\lwg_SeriesMap.cs" />
+    <Compile Include="Models\Mapping\lwg_SeriesMappingMap.cs" />
+    <Compile Include="Models\Mapping\lwg_ShippingConvertionConfigMap.cs" />
+    <Compile Include="Models\Mapping\lwg_TitleTypeMap.cs" />
+    <Compile Include="Models\Mapping\lwg_VideoMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ACLMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ActivityLogMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ActivityLogTypeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_AddressMap.cs" />
+    <Compile Include="Models\Mapping\Nop_AffiliateMap.cs" />
+    <Compile Include="Models\Mapping\Nop_BannedIpAddressMap.cs" />
+    <Compile Include="Models\Mapping\Nop_BannedIpNetworkMap.cs" />
+    <Compile Include="Models\Mapping\Nop_BlogCommentMap.cs" />
+    <Compile Include="Models\Mapping\Nop_BlogPostMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CampaignMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CategoryLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CategoryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CategoryTemplateMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Category_Discount_MappingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CheckoutAttributeLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CheckoutAttributeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CheckoutAttributeValueLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CheckoutAttributeValueMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CountryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CreditCardTypeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CurrencyMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CustomerActionMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CustomerAttributeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CustomerMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CustomerRoleMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CustomerRole_Discount_MappingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CustomerRole_ProductPriceMap.cs" />
+    <Compile Include="Models\Mapping\Nop_CustomerSessionMap.cs" />
+    <Compile Include="Models\Mapping\Nop_DiscountLimitationMap.cs" />
+    <Compile Include="Models\Mapping\Nop_DiscountMap.cs" />
+    <Compile Include="Models\Mapping\Nop_DiscountRequirementMap.cs" />
+    <Compile Include="Models\Mapping\Nop_DiscountTypeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_DiscountUsageHistoryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_DownloadMap.cs" />
+    <Compile Include="Models\Mapping\Nop_EmailDirectoryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Forums_ForumMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Forums_GroupMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Forums_PostMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Forums_PrivateMessageMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Forums_SubscriptionMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Forums_TopicMap.cs" />
+    <Compile Include="Models\Mapping\Nop_GiftCardMap.cs" />
+    <Compile Include="Models\Mapping\Nop_GiftCardUsageHistoryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_LanguageMap.cs" />
+    <Compile Include="Models\Mapping\Nop_LocaleStringResourceMap.cs" />
+    <Compile Include="Models\Mapping\Nop_LogMap.cs" />
+    <Compile Include="Models\Mapping\Nop_LogTypeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_LowStockActivityMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ManufacturerLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ManufacturerMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ManufacturerTemplateMap.cs" />
+    <Compile Include="Models\Mapping\Nop_MeasureDimensionMap.cs" />
+    <Compile Include="Models\Mapping\Nop_MeasureWeightMap.cs" />
+    <Compile Include="Models\Mapping\Nop_MessageTemplateLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_MessageTemplateMap.cs" />
+    <Compile Include="Models\Mapping\Nop_NewsCommentMap.cs" />
+    <Compile Include="Models\Mapping\Nop_NewsLetterSubscriptionMap.cs" />
+    <Compile Include="Models\Mapping\Nop_NewsMap.cs" />
+    <Compile Include="Models\Mapping\Nop_OrderMap.cs" />
+    <Compile Include="Models\Mapping\Nop_OrderNoteMap.cs" />
+    <Compile Include="Models\Mapping\Nop_OrderProductVariantMap.cs" />
+    <Compile Include="Models\Mapping\Nop_OrderStatusMap.cs" />
+    <Compile Include="Models\Mapping\Nop_PaymentMethodMap.cs" />
+    <Compile Include="Models\Mapping\Nop_PaymentStatusMap.cs" />
+    <Compile Include="Models\Mapping\Nop_PictureMap.cs" />
+    <Compile Include="Models\Mapping\Nop_PollAnswerMap.cs" />
+    <Compile Include="Models\Mapping\Nop_PollMap.cs" />
+    <Compile Include="Models\Mapping\Nop_PollVotingRecordMap.cs" />
+    <Compile Include="Models\Mapping\Nop_PricelistMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductAttributeLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductAttributeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductPictureMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductRatingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductReviewHelpfulnessMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductReviewMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductTagMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductTemplateMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductTypeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductVariantAttributeCombinationMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductVariantAttributeValueLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductVariantAttributeValueMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductVariantLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductVariantMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductVariant_Pricelist_MappingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ProductVariant_ProductAttribute_MappingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Product_Category_MappingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Product_Manufacturer_MappingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_Product_SpecificationAttribute_MappingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_QueuedEmailMap.cs" />
+    <Compile Include="Models\Mapping\Nop_RecurringPaymentHistoryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_RecurringPaymentMap.cs" />
+    <Compile Include="Models\Mapping\Nop_RelatedProductMap.cs" />
+    <Compile Include="Models\Mapping\Nop_RewardPointsHistoryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_SearchLogMap.cs" />
+    <Compile Include="Models\Mapping\Nop_SettingMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ShippingByTotalMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ShippingByWeightAndCountryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ShippingByWeightMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ShippingMethodMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ShippingRateComputationMethodMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ShippingStatusMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ShoppingCartItemMap.cs" />
+    <Compile Include="Models\Mapping\Nop_ShoppingCartTypeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_SpecificationAttributeLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_SpecificationAttributeMap.cs" />
+    <Compile Include="Models\Mapping\Nop_SpecificationAttributeOptionLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_SpecificationAttributeOptionMap.cs" />
+    <Compile Include="Models\Mapping\Nop_StateProvinceMap.cs" />
+    <Compile Include="Models\Mapping\Nop_TaxCategoryMap.cs" />
+    <Compile Include="Models\Mapping\Nop_TaxProviderMap.cs" />
+    <Compile Include="Models\Mapping\Nop_TaxRateMap.cs" />
+    <Compile Include="Models\Mapping\Nop_TierPriceMap.cs" />
+    <Compile Include="Models\Mapping\Nop_TopicLocalizedMap.cs" />
+    <Compile Include="Models\Mapping\Nop_TopicMap.cs" />
+    <Compile Include="Models\Mapping\Nop_WarehouseMap.cs" />
+    <Compile Include="Models\Nop_ACL.cs" />
+    <Compile Include="Models\Nop_ActivityLog.cs" />
+    <Compile Include="Models\Nop_ActivityLogType.cs" />
+    <Compile Include="Models\Nop_Address.cs" />
+    <Compile Include="Models\Nop_Affiliate.cs" />
+    <Compile Include="Models\Nop_BannedIpAddress.cs" />
+    <Compile Include="Models\Nop_BannedIpNetwork.cs" />
+    <Compile Include="Models\Nop_BlogComment.cs" />
+    <Compile Include="Models\Nop_BlogPost.cs" />
+    <Compile Include="Models\Nop_Campaign.cs" />
+    <Compile Include="Models\Nop_Category.cs" />
+    <Compile Include="Models\Nop_CategoryLocalized.cs" />
+    <Compile Include="Models\Nop_CategoryTemplate.cs" />
+    <Compile Include="Models\Nop_Category_Discount_Mapping.cs" />
+    <Compile Include="Models\Nop_CheckoutAttribute.cs" />
+    <Compile Include="Models\Nop_CheckoutAttributeLocalized.cs" />
+    <Compile Include="Models\Nop_CheckoutAttributeValue.cs" />
+    <Compile Include="Models\Nop_CheckoutAttributeValueLocalized.cs" />
+    <Compile Include="Models\Nop_Country.cs" />
+    <Compile Include="Models\Nop_CreditCardType.cs" />
+    <Compile Include="Models\Nop_Currency.cs" />
+    <Compile Include="Models\Nop_Customer.cs" />
+    <Compile Include="Models\Nop_CustomerAction.cs" />
+    <Compile Include="Models\Nop_CustomerAttribute.cs" />
+    <Compile Include="Models\Nop_CustomerRole.cs" />
+    <Compile Include="Models\Nop_CustomerRole_Discount_Mapping.cs" />
+    <Compile Include="Models\Nop_CustomerRole_ProductPrice.cs" />
+    <Compile Include="Models\Nop_CustomerSession.cs" />
+    <Compile Include="Models\Nop_Discount.cs" />
+    <Compile Include="Models\Nop_DiscountLimitation.cs" />
+    <Compile Include="Models\Nop_DiscountRequirement.cs" />
+    <Compile Include="Models\Nop_DiscountType.cs" />
+    <Compile Include="Models\Nop_DiscountUsageHistory.cs" />
+    <Compile Include="Models\Nop_Download.cs" />
+    <Compile Include="Models\Nop_EmailDirectory.cs" />
+    <Compile Include="Models\Nop_Forums_Forum.cs" />
+    <Compile Include="Models\Nop_Forums_Group.cs" />
+    <Compile Include="Models\Nop_Forums_Post.cs" />
+    <Compile Include="Models\Nop_Forums_PrivateMessage.cs" />
+    <Compile Include="Models\Nop_Forums_Subscription.cs" />
+    <Compile Include="Models\Nop_Forums_Topic.cs" />
+    <Compile Include="Models\Nop_GiftCard.cs" />
+    <Compile Include="Models\Nop_GiftCardUsageHistory.cs" />
+    <Compile Include="Models\Nop_Language.cs" />
+    <Compile Include="Models\Nop_LocaleStringResource.cs" />
+    <Compile Include="Models\Nop_Log.cs" />
+    <Compile Include="Models\Nop_LogType.cs" />
+    <Compile Include="Models\Nop_LowStockActivity.cs" />
+    <Compile Include="Models\Nop_Manufacturer.cs" />
+    <Compile Include="Models\Nop_ManufacturerLocalized.cs" />
+    <Compile Include="Models\Nop_ManufacturerTemplate.cs" />
+    <Compile Include="Models\Nop_MeasureDimension.cs" />
+    <Compile Include="Models\Nop_MeasureWeight.cs" />
+    <Compile Include="Models\Nop_MessageTemplate.cs" />
+    <Compile Include="Models\Nop_MessageTemplateLocalized.cs" />
+    <Compile Include="Models\Nop_News.cs" />
+    <Compile Include="Models\Nop_NewsComment.cs" />
+    <Compile Include="Models\Nop_NewsLetterSubscription.cs" />
+    <Compile Include="Models\Nop_Order.cs" />
+    <Compile Include="Models\Nop_OrderNote.cs" />
+    <Compile Include="Models\Nop_OrderProductVariant.cs" />
+    <Compile Include="Models\Nop_OrderStatus.cs" />
+    <Compile Include="Models\Nop_PaymentMethod.cs" />
+    <Compile Include="Models\Nop_PaymentStatus.cs" />
+    <Compile Include="Models\Nop_Picture.cs" />
+    <Compile Include="Models\Nop_Poll.cs" />
+    <Compile Include="Models\Nop_PollAnswer.cs" />
+    <Compile Include="Models\Nop_PollVotingRecord.cs" />
+    <Compile Include="Models\Nop_Pricelist.cs" />
+    <Compile Include="Models\Nop_Product.cs" />
+    <Compile Include="Models\Nop_ProductAttribute.cs" />
+    <Compile Include="Models\Nop_ProductAttributeLocalized.cs" />
+    <Compile Include="Models\Nop_ProductLocalized.cs" />
+    <Compile Include="Models\Nop_ProductPicture.cs" />
+    <Compile Include="Models\Nop_ProductRating.cs" />
+    <Compile Include="Models\Nop_ProductReview.cs" />
+    <Compile Include="Models\Nop_ProductReviewHelpfulness.cs" />
+    <Compile Include="Models\Nop_ProductTag.cs" />
+    <Compile Include="Models\Nop_ProductTemplate.cs" />
+    <Compile Include="Models\Nop_ProductType.cs" />
+    <Compile Include="Models\Nop_ProductVariant.cs" />
+    <Compile Include="Models\Nop_ProductVariantAttributeCombination.cs" />
+    <Compile Include="Models\Nop_ProductVariantAttributeValue.cs" />
+    <Compile Include="Models\Nop_ProductVariantAttributeValueLocalized.cs" />
+    <Compile Include="Models\Nop_ProductVariantLocalized.cs" />
+    <Compile Include="Models\Nop_ProductVariant_Pricelist_Mapping.cs" />
+    <Compile Include="Models\Nop_ProductVariant_ProductAttribute_Mapping.cs" />
+    <Compile Include="Models\Nop_Product_Category_Mapping.cs" />
+    <Compile Include="Models\Nop_Product_Manufacturer_Mapping.cs" />
+    <Compile Include="Models\Nop_Product_SpecificationAttribute_Mapping.cs" />
+    <Compile Include="Models\Nop_QueuedEmail.cs" />
+    <Compile Include="Models\Nop_RecurringPayment.cs" />
+    <Compile Include="Models\Nop_RecurringPaymentHistory.cs" />
+    <Compile Include="Models\Nop_RelatedProduct.cs" />
+    <Compile Include="Models\Nop_RewardPointsHistory.cs" />
+    <Compile Include="Models\Nop_SearchLog.cs" />
+    <Compile Include="Models\Nop_Setting.cs" />
+    <Compile Include="Models\Nop_ShippingByTotal.cs" />
+    <Compile Include="Models\Nop_ShippingByWeight.cs" />
+    <Compile Include="Models\Nop_ShippingByWeightAndCountry.cs" />
+    <Compile Include="Models\Nop_ShippingMethod.cs" />
+    <Compile Include="Models\Nop_ShippingRateComputationMethod.cs" />
+    <Compile Include="Models\Nop_ShippingStatus.cs" />
+    <Compile Include="Models\Nop_ShoppingCartItem.cs" />
+    <Compile Include="Models\Nop_ShoppingCartType.cs" />
+    <Compile Include="Models\Nop_SpecificationAttribute.cs" />
+    <Compile Include="Models\Nop_SpecificationAttributeLocalized.cs" />
+    <Compile Include="Models\Nop_SpecificationAttributeOption.cs" />
+    <Compile Include="Models\Nop_SpecificationAttributeOptionLocalized.cs" />
+    <Compile Include="Models\Nop_StateProvince.cs" />
+    <Compile Include="Models\Nop_TaxCategory.cs" />
+    <Compile Include="Models\Nop_TaxProvider.cs" />
+    <Compile Include="Models\Nop_TaxRate.cs" />
+    <Compile Include="Models\Nop_TierPrice.cs" />
+    <Compile Include="Models\Nop_Topic.cs" />
+    <Compile Include="Models\Nop_TopicLocalized.cs" />
+    <Compile Include="Models\Nop_Warehouse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

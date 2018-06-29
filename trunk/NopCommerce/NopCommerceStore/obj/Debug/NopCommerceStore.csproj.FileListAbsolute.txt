@@ -1,0 +1,494 @@
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\NopCommerceStore.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\NopCommerceStore.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\AjaxControlToolkit.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\GCheckout.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.BusinessLogic.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Common.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Controls.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.DataAccess.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.DataAccess.SqlServer.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Froogle.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.HttpModules.BlacklistModule.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.HttpModules.MembershipModule.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Alipay.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Amazon.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Assist.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Beanstream.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.CashOnDelivery.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.CDGcommerce.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Check.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.ChronoPay.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.CyberSource.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Dibs.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.eWay.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.eWayUK.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.iDeal.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Manual.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Moneris.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Moneybookers.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayFlowPro.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayInStore.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayJunction.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayPal.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayPoint.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PSIGate.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PurchaseOrder.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.QuickPay.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.SagePay.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.SecurePay.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Sermepa.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Svea.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.TwoCheckout.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.USAePay.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Worldpay.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.AustraliaPost.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.CanadaPost.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.FedEx.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.FixedRateShipping.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.FreeShipping.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.UPS.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.USPS.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.FixedRateTaxProvider.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.StrikeIron.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Payflow_dotNET.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\RssToolkit.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\UrlRewritingNet.UrlRewriter.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\MigraDoc.DocumentObjectModel.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\MigraDoc.Rendering.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\PdfSharp.Charting.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\PdfSharp.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Ionic.Zip.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Microsoft.Practices.ObjectBuilder2.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.SagePay.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Controls.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.eWay.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.eWay.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.CanadaPost.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Svea.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.FedEx.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.FreeShipping.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.FreeShipping.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.CDGcommerce.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.ChronoPay.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Moneybookers.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Moneybookers.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.DataAccess.SqlServer.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.DataAccess.SqlServer.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Froogle.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Froogle.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.eWayUK.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Manual.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Manual.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.AustraliaPost.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Amazon.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.StrikeIron.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.StrikeIron.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayFlowPro.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayFlowPro.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Worldpay.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Worldpay.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.CyberSource.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Moneris.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.QuickPay.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.HttpModules.MembershipModule.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.FixedRateTaxProvider.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.UPS.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.UPS.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.USAePay.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayPoint.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayJunction.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.BusinessLogic.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.BusinessLogic.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Common.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Sermepa.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PSIGate.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PSIGate.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayPal.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayPal.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.CashOnDelivery.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Check.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Check.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PayInStore.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.HttpModules.BlacklistModule.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.USPS.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.USPS.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.iDeal.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Dibs.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\UrlRewritingNet.UrlRewriter.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Alipay.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Shipping.FixedRateShipping.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Assist.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.PurchaseOrder.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.Beanstream.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.TwoCheckout.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.TwoCheckout.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.Payment.SecurePay.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.DataAccess.pdb
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\bin\Nop.DataAccess.xml
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\obj\Debug\ResolveAssemblyReference.cache
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\obj\Debug\NopCommerceStore.dll
+F:\Temp\Test\nopCommerce 1.60\NopCommerceStore\obj\Debug\NopCommerceStore.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\NopCommerceStore.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\NopCommerceStore.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\AjaxControlToolkit.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\GCheckout.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.BusinessLogic.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Common.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Controls.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.SqlServer.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Froogle.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.HttpModules.BlacklistModule.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.HttpModules.MembershipModule.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Alipay.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Amazon.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Assist.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Beanstream.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.CashOnDelivery.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.CDGcommerce.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Check.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.ChronoPay.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.CyberSource.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Dibs.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWay.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWayUK.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.iDeal.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Manual.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneris.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneybookers.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayFlowPro.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayInStore.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayJunction.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPal.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPoint.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PSIGate.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PurchaseOrder.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.QuickPay.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.SagePay.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.SecurePay.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Sermepa.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Svea.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.TwoCheckout.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.USAePay.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Worldpay.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.AustraliaPost.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.CanadaPost.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FedEx.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FixedRateShipping.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FreeShipping.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.UPS.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.USPS.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.FixedRateTaxProvider.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.StrikeIron.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Payflow_dotNET.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\RssToolkit.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\UrlRewritingNet.UrlRewriter.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\MigraDoc.DocumentObjectModel.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\MigraDoc.Rendering.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\PdfSharp.Charting.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\PdfSharp.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Ionic.Zip.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.SagePay.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Controls.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWay.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWay.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.CanadaPost.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Svea.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FedEx.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FreeShipping.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FreeShipping.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.CDGcommerce.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.ChronoPay.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneybookers.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneybookers.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.SqlServer.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.SqlServer.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Froogle.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Froogle.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWayUK.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Manual.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Manual.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.AustraliaPost.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Amazon.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.StrikeIron.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.StrikeIron.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayFlowPro.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayFlowPro.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Worldpay.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Worldpay.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.CyberSource.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneris.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.QuickPay.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.HttpModules.MembershipModule.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.FixedRateTaxProvider.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.UPS.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.UPS.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.USAePay.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPoint.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayJunction.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.BusinessLogic.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.BusinessLogic.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Common.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Sermepa.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PSIGate.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PSIGate.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPal.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPal.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.CashOnDelivery.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Check.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Check.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayInStore.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.HttpModules.BlacklistModule.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.USPS.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.USPS.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.iDeal.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Dibs.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\UrlRewritingNet.UrlRewriter.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Alipay.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FixedRateShipping.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Assist.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.PurchaseOrder.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.Beanstream.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.TwoCheckout.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.TwoCheckout.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.Payment.SecurePay.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.pdb
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.xml
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.dll
+D:\MyProject\LDWG\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.csprojResolveAssemblyReference.cache
+H:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.csprojAssemblyReference.cache
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\NopCommerceStore.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\NopCommerceStore.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\NopCommerceStore.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\AjaxControlToolkit.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\EntityFramework.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\EntityFramework.SqlServer.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\GCheckout.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\LWG.Business.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\LWG.Core.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.BusinessLogic.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Common.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Controls.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.SqlServer.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Froogle.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.HttpModules.BlacklistModule.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.HttpModules.MembershipModule.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Alipay.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Amazon.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Assist.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Beanstream.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.CashOnDelivery.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.CDGcommerce.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Check.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.ChronoPay.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.CyberSource.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Dibs.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWay.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWayUK.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.iDeal.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Manual.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneris.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneybookers.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayFlowPro.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayInStore.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayJunction.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPal.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPoint.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PSIGate.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PurchaseOrder.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.QuickPay.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.SagePay.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.SecurePay.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Sermepa.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Svea.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.TwoCheckout.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.USAePay.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Worldpay.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.AustraliaPost.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.CanadaPost.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FedEx.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FixedRateShipping.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FreeShipping.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.UPS.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.USPS.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.FixedRateTaxProvider.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.StrikeIron.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Payflow_dotNET.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\RssToolkit.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Shipping.DHL.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\UrlRewritingNet.UrlRewriter.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\MigraDoc.DocumentObjectModel.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\MigraDoc.Rendering.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Ionic.Zip.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\PdfSharp.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\PdfSharp.Charting.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.BusinessLogic.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.BusinessLogic.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.BusinessLogic.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Common.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Controls.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.SqlServer.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.SqlServer.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.DataAccess.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Froogle.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Froogle.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.HttpModules.BlacklistModule.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.HttpModules.MembershipModule.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\UrlRewritingNet.UrlRewriter.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\LWG.Business.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\LWG.Business.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\LWG.Core.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\LWG.Core.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Alipay.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Amazon.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Assist.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.AuthorizeNet.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Beanstream.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.CashOnDelivery.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.CDGcommerce.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Check.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Check.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.ChronoPay.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.CyberSource.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Dibs.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWayUK.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWay.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.eWay.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.GoogleCheckout.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.iDeal.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Manual.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Manual.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneris.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneybookers.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Moneybookers.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayFlowPro.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayFlowPro.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayInStore.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayJunction.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPal.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPal.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPal.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PayPoint.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PSIGate.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PSIGate.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.PurchaseOrder.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.QuickPay.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.SagePay.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.SecurePay.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Sermepa.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Svea.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.TwoCheckout.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.TwoCheckout.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.USAePay.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.USAePay.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Worldpay.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Payment.Worldpay.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.AustraliaPost.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.CanadaPost.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FedEx.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FedEx.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FixedRateShipping.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FreeShipping.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.FreeShipping.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByTotal.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeightAndCountry.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.ShippingByWeight.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.UPS.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.UPS.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.USPS.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Shipping.USPS.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Shipping.DHL.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.FixedRateTaxProvider.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.FreeTaxProvider.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.GeneralTaxProvider.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.StrikeIron.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.StrikeIron.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\Nop.Tax.StrikeIron.dll.config
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\EntityFramework.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\bin\EntityFramework.SqlServer.xml
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.csproj.CopyComplete
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.dll
+D:\Project\LWG_V1\trunk\NopCommerce\NopCommerceStore\obj\Debug\NopCommerceStore.pdb

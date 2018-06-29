@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Root.master" AutoEventWireup="true"
+    CodeBehind="OneColumn.master.cs" Inherits="NopSolutions.NopCommerce.Web.MasterPages.OneColumn" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="cph1" runat="server">
+    <%--<div class="master-wrapper-center-1">
+        <div class="master-wrapper-cph-1">
+            <asp:ContentPlaceHolder ID="cph1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>--%>
+    <div style="text-align: left;">
+        <div style="height: 7px;">
+            <div class="ftb_bot4">
+            </div>
+            <div class="ftb_bot5" style="width: 946px;">
+            </div>
+            <div class="ftb_bot6">
+            </div>
+        </div>
+        <div style="background-color: #ffffff; padding-left: 10px; padding-right: 10px; color: #000000">
+            <asp:ContentPlaceHolder ID="cph1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div style="height: 7px;">
+            <div class="ftb_bot1">
+            </div>
+            <div class="ftb_bot2" style="width: 946px;">
+            </div>
+            <div class="ftb_bot3">
+            </div>
+        </div>
+    </div>
+</asp:Content>

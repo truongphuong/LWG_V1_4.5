@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LudwigMasterModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="lwg_CatalogTitle">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_CatalogTitle">
+        <MappingFragment StoreEntitySet="lwg_CatalogTitle">
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+          <ScalarProperty Name="InstrTitleId" ColumnName="InstrTitleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Audio">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Audio">
+        <MappingFragment StoreEntitySet="lwg_Audio">
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="SoundFile" ColumnName="SoundFile" />
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+          <ScalarProperty Name="AudioId" ColumnName="AudioId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Catalog">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Catalog">
+        <MappingFragment StoreEntitySet="lwg_Catalog">
+          <ScalarProperty Name="CopyrightYear" ColumnName="CopyrightYear" />
+          <ScalarProperty Name="TableofContents" ColumnName="TableofContents" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="VocAccomp" ColumnName="VocAccomp" />
+          <ScalarProperty Name="InstrDetail" ColumnName="InstrDetail" />
+          <ScalarProperty Name="S5MasterCategories" ColumnName="S5MasterCategories" />
+          <ScalarProperty Name="S4MasterSeries" ColumnName="S4MasterSeries" />
+          <ScalarProperty Name="Blurb" ColumnName="Blurb" />
+          <ScalarProperty Name="SeriesId" ColumnName="SeriesId" />
+          <ScalarProperty Name="InstrumentalId" ColumnName="InstrumentalId" />
+          <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+          <ScalarProperty Name="ArrangerGroupId" ColumnName="ArrangerGroupId" />
+          <ScalarProperty Name="ReprintSourceId" ColumnName="ReprintSourceId" />
+          <ScalarProperty Name="pages" ColumnName="pages" />
+          <ScalarProperty Name="PDF" ColumnName="PDF" />
+          <ScalarProperty Name="Xform5" ColumnName="Xform5" />
+          <ScalarProperty Name="Xform4" ColumnName="Xform4" />
+          <ScalarProperty Name="Xform3" ColumnName="Xform3" />
+          <ScalarProperty Name="Xform2" ColumnName="Xform2" />
+          <ScalarProperty Name="Xform1" ColumnName="Xform1" />
+          <ScalarProperty Name="Track10" ColumnName="Track10" />
+          <ScalarProperty Name="Track09" ColumnName="Track09" />
+          <ScalarProperty Name="Track08" ColumnName="Track08" />
+          <ScalarProperty Name="Track07" ColumnName="Track07" />
+          <ScalarProperty Name="Track06" ColumnName="Track06" />
+          <ScalarProperty Name="Track05" ColumnName="Track05" />
+          <ScalarProperty Name="Track04" ColumnName="Track04" />
+          <ScalarProperty Name="Track03" ColumnName="Track03" />
+          <ScalarProperty Name="Track02" ColumnName="Track02" />
+          <ScalarProperty Name="Track01" ColumnName="Track01" />
+          <ScalarProperty Name="QTFile11" ColumnName="QTFile11" />
+          <ScalarProperty Name="QTFile10" ColumnName="QTFile10" />
+          <ScalarProperty Name="QTFile9" ColumnName="QTFile9" />
+          <ScalarProperty Name="QTFile8" ColumnName="QTFile8" />
+          <ScalarProperty Name="QTFile7" ColumnName="QTFile7" />
+          <ScalarProperty Name="QTFile6" ColumnName="QTFile6" />
+          <ScalarProperty Name="QTFile5" ColumnName="QTFile5" />
+          <ScalarProperty Name="QTFile4" ColumnName="QTFile4" />
+          <ScalarProperty Name="QTFile3" ColumnName="QTFile3" />
+          <ScalarProperty Name="QTFile2" ColumnName="QTFile2" />
+          <ScalarProperty Name="QTFile1" ColumnName="QTFile1" />
+          <ScalarProperty Name="SoundIcon" ColumnName="SoundIcon" />
+          <ScalarProperty Name="SoundFile15" ColumnName="SoundFile15" />
+          <ScalarProperty Name="SoundFile14" ColumnName="SoundFile14" />
+          <ScalarProperty Name="SoundFile13" ColumnName="SoundFile13" />
+          <ScalarProperty Name="SoundFile12" ColumnName="SoundFile12" />
+          <ScalarProperty Name="SoundFile11" ColumnName="SoundFile11" />
+          <ScalarProperty Name="SoundFile10" ColumnName="SoundFile10" />
+          <ScalarProperty Name="SoundFile9" ColumnName="SoundFile9" />
+          <ScalarProperty Name="SoundFile8" ColumnName="SoundFile8" />
+          <ScalarProperty Name="SoundFile7" ColumnName="SoundFile7" />
+          <ScalarProperty Name="SoundFile6" ColumnName="SoundFile6" />
+          <ScalarProperty Name="SoundFile5" ColumnName="SoundFile5" />
+          <ScalarProperty Name="SoundFile4" ColumnName="SoundFile4" />
+          <ScalarProperty Name="SoundFile3" ColumnName="SoundFile3" />
+          <ScalarProperty Name="SoundFile2" ColumnName="SoundFile2" />
+          <ScalarProperty Name="SoundFile1" ColumnName="SoundFile1" />
+          <ScalarProperty Name="Price10" ColumnName="Price10" />
+          <ScalarProperty Name="Price9" ColumnName="Price9" />
+          <ScalarProperty Name="Price8" ColumnName="Price8" />
+          <ScalarProperty Name="Price7" ColumnName="Price7" />
+          <ScalarProperty Name="Price6" ColumnName="Price6" />
+          <ScalarProperty Name="Price5" ColumnName="Price5" />
+          <ScalarProperty Name="Price4" ColumnName="Price4" />
+          <ScalarProperty Name="Price3" ColumnName="Price3" />
+          <ScalarProperty Name="Price2" ColumnName="Price2" />
+          <ScalarProperty Name="Price1" ColumnName="Price1" />
+          <ScalarProperty Name="Format10" ColumnName="Format10" />
+          <ScalarProperty Name="Format9" ColumnName="Format9" />
+          <ScalarProperty Name="Format8" ColumnName="Format8" />
+          <ScalarProperty Name="Format7" ColumnName="Format7" />
+          <ScalarProperty Name="Format6" ColumnName="Format6" />
+          <ScalarProperty Name="Format5" ColumnName="Format5" />
+          <ScalarProperty Name="Format4" ColumnName="Format4" />
+          <ScalarProperty Name="Format3" ColumnName="Format3" />
+          <ScalarProperty Name="Format2" ColumnName="Format2" />
+          <ScalarProperty Name="Format1" ColumnName="Format1" />
+          <ScalarProperty Name="KaldbNumber" ColumnName="KaldbNumber" />
+          <ScalarProperty Name="recid" ColumnName="recid" />
+          <ScalarProperty Name="PTSprodcode" ColumnName="PTSprodcode" />
+          <ScalarProperty Name="FSCprodcode" ColumnName="FSCprodcode" />
+          <ScalarProperty Name="TextLang" ColumnName="TextLang" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Subtitle" ColumnName="Subtitle" />
+          <ScalarProperty Name="TitleSort" ColumnName="TitleSort" />
+          <ScalarProperty Name="TitleList" ColumnName="TitleList" />
+          <ScalarProperty Name="TitleDisplay" ColumnName="TitleDisplay" />
+          <ScalarProperty Name="CatalogNumber" ColumnName="CatalogNumber" />
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_CatalogGenre">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_CatalogGenre">
+        <MappingFragment StoreEntitySet="lwg_CatalogGenre">
+          <ScalarProperty Name="GerneId" ColumnName="GerneId" />
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_CatalogInstrumentSearch">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_CatalogInstrumentSearch">
+        <MappingFragment StoreEntitySet="lwg_CatalogInstrumentSearch">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IntrText" ColumnName="IntrText" />
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_CatalogNameSearch">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_CatalogNameSearch">
+        <MappingFragment StoreEntitySet="lwg_CatalogNameSearch">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_CatalogPublisher">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_CatalogPublisher">
+        <MappingFragment StoreEntitySet="lwg_CatalogPublisher">
+          <ScalarProperty Name="PublisherId" ColumnName="PublisherId" />
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_CatalogTitleSearch">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_CatalogTitleSearch">
+        <MappingFragment StoreEntitySet="lwg_CatalogTitleSearch">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Dealer">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Dealer">
+        <MappingFragment StoreEntitySet="lwg_Dealer">
+          <ScalarProperty Name="AddressSearch" ColumnName="AddressSearch" />
+          <ScalarProperty Name="NewIssue" ColumnName="NewIssue" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="WebAddress" ColumnName="WebAddress" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="AddressLine2" ColumnName="AddressLine2" />
+          <ScalarProperty Name="AddressLine1" ColumnName="AddressLine1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DealerID" ColumnName="DealerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Genre">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Genre">
+        <MappingFragment StoreEntitySet="lwg_Genre">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="GerneId" ColumnName="GerneId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_HtmlContent">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_HtmlContent">
+        <MappingFragment StoreEntitySet="lwg_HtmlContent">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="ContentHtml" ColumnName="ContentHtml" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_InstrTitle">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_InstrTitle">
+        <MappingFragment StoreEntitySet="lwg_InstrTitle">
+          <ScalarProperty Name="TitleTypeId" ColumnName="TitleTypeId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Instrumental">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Instrumental">
+        <MappingFragment StoreEntitySet="lwg_Instrumental">
+          <ScalarProperty Name="LongName" ColumnName="LongName" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="InstrumentalId" ColumnName="InstrumentalId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_LicenseForm">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_LicenseForm">
+        <MappingFragment StoreEntitySet="lwg_LicenseForm">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="Zipcode" ColumnName="Zipcode" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LicenseType" ColumnName="LicenseType" />
+          <ScalarProperty Name="LicenseID" ColumnName="LicenseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Period">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Period">
+        <MappingFragment StoreEntitySet="lwg_Period">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="lwg_PeriodMapping" TypeName="LudwigMasterModel.lwg_PeriodMapping" StoreEntitySet="lwg_PeriodMapping">
+      <EndProperty Name="lwg_Period">
+        <ScalarProperty Name="PeriodId" ColumnName="PeriodID" />
+      </EndProperty>
+      <EndProperty Name="lwg_Catalog">
+        <ScalarProperty Name="CatalogId" ColumnName="CatalogID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="lwg_Person">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Person">
+        <MappingFragment StoreEntitySet="lwg_Person">
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="FirstLetter" ColumnName="FirstLetter" />
+          <ScalarProperty Name="Biography" ColumnName="Biography" />
+          <ScalarProperty Name="DOD" ColumnName="DOD" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="NameSort" ColumnName="NameSort" />
+          <ScalarProperty Name="NameList" ColumnName="NameList" />
+          <ScalarProperty Name="NameDisplay" ColumnName="NameDisplay" />
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_PersonInRole">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_PersonInRole">
+        <MappingFragment StoreEntitySet="lwg_PersonInRole">
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Publisher">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Publisher">
+        <MappingFragment StoreEntitySet="lwg_Publisher">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PublisherId" ColumnName="PublisherId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_ReprintSource">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_ReprintSource">
+        <MappingFragment StoreEntitySet="lwg_ReprintSource">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ReprintSourceId" ColumnName="ReprintSourceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="lwg_ReprintSourceMapping" TypeName="LudwigMasterModel.lwg_ReprintSourceMapping" StoreEntitySet="lwg_ReprintSourceMapping">
+      <EndProperty Name="lwg_ReprintSource">
+        <ScalarProperty Name="ReprintSourceId" ColumnName="ReprintSourceID" />
+      </EndProperty>
+      <EndProperty Name="lwg_Catalog">
+        <ScalarProperty Name="CatalogId" ColumnName="CatalogID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="lwg_Role">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Role">
+        <MappingFragment StoreEntitySet="lwg_Role">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Series">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Series">
+        <MappingFragment StoreEntitySet="lwg_Series">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SeriesId" ColumnName="SeriesId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="lwg_SeriesMapping" TypeName="LudwigMasterModel.lwg_SeriesMapping" StoreEntitySet="lwg_SeriesMapping">
+      <EndProperty Name="lwg_Series">
+        <ScalarProperty Name="SeriesId" ColumnName="SeriesID" />
+      </EndProperty>
+      <EndProperty Name="lwg_Catalog">
+        <ScalarProperty Name="CatalogId" ColumnName="CatalogID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="lwg_ShippingConvertionConfig">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_ShippingConvertionConfig">
+        <MappingFragment StoreEntitySet="lwg_ShippingConvertionConfig">
+          <ScalarProperty Name="ChargeWeight" ColumnName="ChargeWeight" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="PriceTo" ColumnName="PriceTo" />
+          <ScalarProperty Name="PriceFrom" ColumnName="PriceFrom" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_TitleType">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_TitleType">
+        <MappingFragment StoreEntitySet="lwg_TitleType">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lwg_Video">
+      <EntityTypeMapping TypeName="LudwigMasterModel.lwg_Video">
+        <MappingFragment StoreEntitySet="lwg_Video">
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="QTFile" ColumnName="QTFile" />
+          <ScalarProperty Name="CatalogId" ColumnName="CatalogId" />
+          <ScalarProperty Name="VideoId" ColumnName="VideoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

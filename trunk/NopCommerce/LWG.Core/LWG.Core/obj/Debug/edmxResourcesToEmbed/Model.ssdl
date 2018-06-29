@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LudwigMasterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="lwg_Audio">
+    <Key>
+      <PropertyRef Name="AudioId" />
+    </Key>
+    <Property Name="AudioId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="SoundFile" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="DisplayOrder" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Catalog">
+    <Key>
+      <PropertyRef Name="CatalogId" />
+    </Key>
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="CatalogNumber" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TitleDisplay" Type="nvarchar" MaxLength="2000" />
+    <Property Name="TitleList" Type="nvarchar" MaxLength="2000" />
+    <Property Name="TitleSort" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Subtitle" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Duration" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Grade" Type="varchar" MaxLength="50" />
+    <Property Name="TextLang" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="FSCprodcode" Type="nvarchar" MaxLength="2000" />
+    <Property Name="PTSprodcode" Type="nvarchar" MaxLength="2000" />
+    <Property Name="recid" Type="int" />
+    <Property Name="KaldbNumber" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Format1" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format2" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format3" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format4" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format5" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format6" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format7" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format8" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format9" Type="nvarchar" MaxLength="200" />
+    <Property Name="Format10" Type="nvarchar" MaxLength="200" />
+    <Property Name="Price1" Type="float" />
+    <Property Name="Price2" Type="float" />
+    <Property Name="Price3" Type="float" />
+    <Property Name="Price4" Type="float" />
+    <Property Name="Price5" Type="float" />
+    <Property Name="Price6" Type="float" />
+    <Property Name="Price7" Type="float" />
+    <Property Name="Price8" Type="float" />
+    <Property Name="Price9" Type="float" />
+    <Property Name="Price10" Type="float" />
+    <Property Name="SoundFile1" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile2" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile3" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile4" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile5" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile6" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile7" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile8" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile9" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile10" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile11" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile12" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile13" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile14" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundFile15" Type="nvarchar" MaxLength="200" />
+    <Property Name="SoundIcon" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="QTFile1" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile2" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile3" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile4" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile5" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile6" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile7" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile8" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile9" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile10" Type="nvarchar" MaxLength="200" />
+    <Property Name="QTFile11" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track01" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track02" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track03" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track04" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track05" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track06" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track07" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track08" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track09" Type="nvarchar" MaxLength="200" />
+    <Property Name="Track10" Type="nvarchar" MaxLength="200" />
+    <Property Name="Xform1" Type="nvarchar" MaxLength="200" />
+    <Property Name="Xform2" Type="nvarchar" MaxLength="200" />
+    <Property Name="Xform3" Type="nvarchar" MaxLength="200" />
+    <Property Name="Xform4" Type="nvarchar" MaxLength="200" />
+    <Property Name="Xform5" Type="nvarchar" MaxLength="200" />
+    <Property Name="PDF" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="pages" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="ReprintSourceId" Type="int" />
+    <Property Name="ArrangerGroupId" Type="int" />
+    <Property Name="PeriodId" Type="int" />
+    <Property Name="InstrumentalId" Type="int" />
+    <Property Name="SeriesId" Type="int" />
+    <Property Name="Blurb" Type="nvarchar" MaxLength="4000" />
+    <Property Name="S4MasterSeries" Type="nvarchar" MaxLength="2000" />
+    <Property Name="S5MasterCategories" Type="nvarchar" MaxLength="2000" />
+    <Property Name="InstrDetail" Type="nvarchar" MaxLength="2000" />
+    <Property Name="VocAccomp" Type="bit" />
+    <Property Name="Year" Type="nvarchar" MaxLength="500" />
+    <Property Name="TableofContents" Type="nvarchar(max)" />
+    <Property Name="CopyrightYear" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogGenre">
+    <Key>
+      <PropertyRef Name="CatalogId" />
+      <PropertyRef Name="GerneId" />
+    </Key>
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="GerneId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogInstrumentSearch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="IntrText" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogNameSearch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogPublisher">
+    <Key>
+      <PropertyRef Name="CatalogId" />
+      <PropertyRef Name="PublisherId" />
+    </Key>
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="PublisherId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogTitle">
+    <Key>
+      <PropertyRef Name="CatalogId" />
+      <PropertyRef Name="InstrTitleId" />
+    </Key>
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="InstrTitleId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogTitleSearch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Dealer">
+    <Key>
+      <PropertyRef Name="DealerID" />
+    </Key>
+    <Property Name="DealerID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="AddressLine1" Type="nvarchar" MaxLength="500" />
+    <Property Name="AddressLine2" Type="nvarchar" MaxLength="500" />
+    <Property Name="City" Type="nvarchar" MaxLength="100" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="100" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="WebAddress" Type="nvarchar(max)" />
+    <Property Name="Contact" Type="nvarchar(max)" />
+    <Property Name="NewIssue" Type="nvarchar(max)" />
+    <Property Name="AddressSearch" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="lwg_Genre">
+    <Key>
+      <PropertyRef Name="GerneId" />
+    </Key>
+    <Property Name="GerneId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_HtmlContent">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" Nullable="false" />
+    <Property Name="ContentHtml" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsDelete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_InstrTitle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TitleTypeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Instrumental">
+    <Key>
+      <PropertyRef Name="InstrumentalId" />
+    </Key>
+    <Property Name="InstrumentalId" Type="int" Nullable="false" />
+    <Property Name="ShortName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="LongName" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_LicenseForm">
+    <Key>
+      <PropertyRef Name="LicenseID" />
+    </Key>
+    <Property Name="LicenseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LicenseType" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Zipcode" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="IsDelete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Period">
+    <Key>
+      <PropertyRef Name="PeriodId" />
+    </Key>
+    <Property Name="PeriodId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_PeriodMapping">
+    <Key>
+      <PropertyRef Name="PeriodID" />
+      <PropertyRef Name="CatalogID" />
+    </Key>
+    <Property Name="PeriodID" Type="int" Nullable="false" />
+    <Property Name="CatalogID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Person">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="int" Nullable="false" />
+    <Property Name="NameDisplay" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="NameList" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="NameSort" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DOB" Type="nvarchar(max)" />
+    <Property Name="DOD" Type="nvarchar(max)" />
+    <Property Name="Biography" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FirstLetter" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="PictureID" Type="int" />
+  </EntityType>
+  <EntityType Name="lwg_PersonInRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="PersonId" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Publisher">
+    <Key>
+      <PropertyRef Name="PublisherId" />
+    </Key>
+    <Property Name="PublisherId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_ReprintSource">
+    <Key>
+      <PropertyRef Name="ReprintSourceId" />
+    </Key>
+    <Property Name="ReprintSourceId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_ReprintSourceMapping">
+    <Key>
+      <PropertyRef Name="ReprintSourceID" />
+      <PropertyRef Name="CatalogID" />
+    </Key>
+    <Property Name="ReprintSourceID" Type="int" Nullable="false" />
+    <Property Name="CatalogID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Series">
+    <Key>
+      <PropertyRef Name="SeriesId" />
+    </Key>
+    <Property Name="SeriesId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_SeriesMapping">
+    <Key>
+      <PropertyRef Name="SeriesID" />
+      <PropertyRef Name="CatalogID" />
+    </Key>
+    <Property Name="SeriesID" Type="int" Nullable="false" />
+    <Property Name="CatalogID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_ShippingConvertionConfig">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PriceFrom" Type="int" Nullable="false" />
+    <Property Name="PriceTo" Type="int" Nullable="false" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ChargeWeight" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_TitleType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Video">
+    <Key>
+      <PropertyRef Name="VideoId" />
+    </Key>
+    <Property Name="VideoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CatalogId" Type="int" Nullable="false" />
+    <Property Name="QTFile" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="DisplayOrder" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_lwg_Audio_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="lwg_Audio" Type="Self.lwg_Audio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_Audio">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_Catalog_lwg_Instrumental">
+    <End Role="lwg_Instrumental" Type="Self.lwg_Instrumental" Multiplicity="0..1" />
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Instrumental">
+        <PropertyRef Name="InstrumentalId" />
+      </Principal>
+      <Dependent Role="lwg_Catalog">
+        <PropertyRef Name="InstrumentalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogGenre_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogGenre" Type="Self.lwg_CatalogGenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogGenre">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogGenre_lwg_Genre">
+    <End Role="lwg_Genre" Type="Self.lwg_Genre" Multiplicity="1" />
+    <End Role="lwg_CatalogGenre" Type="Self.lwg_CatalogGenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Genre">
+        <PropertyRef Name="GerneId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogGenre">
+        <PropertyRef Name="GerneId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogInstrumentSearch_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogInstrumentSearch" Type="Self.lwg_CatalogInstrumentSearch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogInstrumentSearch">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogNameSearch_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogNameSearch" Type="Self.lwg_CatalogNameSearch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogNameSearch">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogPublisher_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogPublisher" Type="Self.lwg_CatalogPublisher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogPublisher">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogPublisher_lwg_Publisher">
+    <End Role="lwg_Publisher" Type="Self.lwg_Publisher" Multiplicity="1" />
+    <End Role="lwg_CatalogPublisher" Type="Self.lwg_CatalogPublisher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Publisher">
+        <PropertyRef Name="PublisherId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogPublisher">
+        <PropertyRef Name="PublisherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogTitle_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogTitle" Type="Self.lwg_CatalogTitle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogTitle">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogTitle_lwg_InstrTitle">
+    <End Role="lwg_InstrTitle" Type="Self.lwg_InstrTitle" Multiplicity="1" />
+    <End Role="lwg_CatalogTitle" Type="Self.lwg_CatalogTitle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_InstrTitle">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="lwg_CatalogTitle">
+        <PropertyRef Name="InstrTitleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogTitleSearch_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogTitleSearch" Type="Self.lwg_CatalogTitleSearch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogTitleSearch">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_InstrTitle_lwg_TitleType">
+    <End Role="lwg_TitleType" Type="Self.lwg_TitleType" Multiplicity="1" />
+    <End Role="lwg_InstrTitle" Type="Self.lwg_InstrTitle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_TitleType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="lwg_InstrTitle">
+        <PropertyRef Name="TitleTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_PeriodMapping_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_PeriodMapping" Type="Self.lwg_PeriodMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_PeriodMapping">
+        <PropertyRef Name="CatalogID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_PeriodMapping_lwg_Period">
+    <End Role="lwg_Period" Type="Self.lwg_Period" Multiplicity="1" />
+    <End Role="lwg_PeriodMapping" Type="Self.lwg_PeriodMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Period">
+        <PropertyRef Name="PeriodId" />
+      </Principal>
+      <Dependent Role="lwg_PeriodMapping">
+        <PropertyRef Name="PeriodID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_PersonInRole_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_PersonInRole" Type="Self.lwg_PersonInRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_PersonInRole">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_PersonInRole_lwg_Person">
+    <End Role="lwg_Person" Type="Self.lwg_Person" Multiplicity="1" />
+    <End Role="lwg_PersonInRole" Type="Self.lwg_PersonInRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Person">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="lwg_PersonInRole">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_PersonInRole_lwg_Role1">
+    <End Role="lwg_Role" Type="Self.lwg_Role" Multiplicity="1" />
+    <End Role="lwg_PersonInRole" Type="Self.lwg_PersonInRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Role">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="lwg_PersonInRole">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_ReprintSourceMaping_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_ReprintSourceMapping" Type="Self.lwg_ReprintSourceMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_ReprintSourceMapping">
+        <PropertyRef Name="CatalogID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_ReprintSourceMaping_lwg_ReprintSource">
+    <End Role="lwg_ReprintSource" Type="Self.lwg_ReprintSource" Multiplicity="1" />
+    <End Role="lwg_ReprintSourceMapping" Type="Self.lwg_ReprintSourceMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_ReprintSource">
+        <PropertyRef Name="ReprintSourceId" />
+      </Principal>
+      <Dependent Role="lwg_ReprintSourceMapping">
+        <PropertyRef Name="ReprintSourceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_SeriesMapping_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_SeriesMapping" Type="Self.lwg_SeriesMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_SeriesMapping">
+        <PropertyRef Name="CatalogID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_SeriesMapping_lwg_Series">
+    <End Role="lwg_Series" Type="Self.lwg_Series" Multiplicity="1" />
+    <End Role="lwg_SeriesMapping" Type="Self.lwg_SeriesMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Series">
+        <PropertyRef Name="SeriesId" />
+      </Principal>
+      <Dependent Role="lwg_SeriesMapping">
+        <PropertyRef Name="SeriesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_Video_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="lwg_Video" Type="Self.lwg_Video" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_Video">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LudwigMasterModelStoreContainer">
+    <EntitySet Name="lwg_Audio" EntityType="Self.lwg_Audio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Catalog" EntityType="Self.lwg_Catalog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_CatalogGenre" EntityType="Self.lwg_CatalogGenre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_CatalogInstrumentSearch" EntityType="Self.lwg_CatalogInstrumentSearch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_CatalogNameSearch" EntityType="Self.lwg_CatalogNameSearch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_CatalogPublisher" EntityType="Self.lwg_CatalogPublisher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_CatalogTitle" EntityType="Self.lwg_CatalogTitle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_CatalogTitleSearch" EntityType="Self.lwg_CatalogTitleSearch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Dealer" EntityType="Self.lwg_Dealer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Genre" EntityType="Self.lwg_Genre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_HtmlContent" EntityType="Self.lwg_HtmlContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_InstrTitle" EntityType="Self.lwg_InstrTitle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Instrumental" EntityType="Self.lwg_Instrumental" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_LicenseForm" EntityType="Self.lwg_LicenseForm" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Period" EntityType="Self.lwg_Period" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_PeriodMapping" EntityType="Self.lwg_PeriodMapping" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Person" EntityType="Self.lwg_Person" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_PersonInRole" EntityType="Self.lwg_PersonInRole" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Publisher" EntityType="Self.lwg_Publisher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_ReprintSource" EntityType="Self.lwg_ReprintSource" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_ReprintSourceMapping" EntityType="Self.lwg_ReprintSourceMapping" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Role" EntityType="Self.lwg_Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Series" EntityType="Self.lwg_Series" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_SeriesMapping" EntityType="Self.lwg_SeriesMapping" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_ShippingConvertionConfig" EntityType="Self.lwg_ShippingConvertionConfig" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_TitleType" EntityType="Self.lwg_TitleType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lwg_Video" EntityType="Self.lwg_Video" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_lwg_Audio_lwg_Catalog" Association="Self.FK_lwg_Audio_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_Audio" EntitySet="lwg_Audio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_Catalog_lwg_Instrumental" Association="Self.FK_lwg_Catalog_lwg_Instrumental">
+      <End Role="lwg_Instrumental" EntitySet="lwg_Instrumental" />
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogGenre_lwg_Catalog" Association="Self.FK_lwg_CatalogGenre_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogGenre" EntitySet="lwg_CatalogGenre" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogGenre_lwg_Genre" Association="Self.FK_lwg_CatalogGenre_lwg_Genre">
+      <End Role="lwg_Genre" EntitySet="lwg_Genre" />
+      <End Role="lwg_CatalogGenre" EntitySet="lwg_CatalogGenre" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogInstrumentSearch_lwg_Catalog" Association="Self.FK_lwg_CatalogInstrumentSearch_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogInstrumentSearch" EntitySet="lwg_CatalogInstrumentSearch" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogNameSearch_lwg_Catalog" Association="Self.FK_lwg_CatalogNameSearch_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogNameSearch" EntitySet="lwg_CatalogNameSearch" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogPublisher_lwg_Catalog" Association="Self.FK_lwg_CatalogPublisher_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogPublisher" EntitySet="lwg_CatalogPublisher" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogPublisher_lwg_Publisher" Association="Self.FK_lwg_CatalogPublisher_lwg_Publisher">
+      <End Role="lwg_Publisher" EntitySet="lwg_Publisher" />
+      <End Role="lwg_CatalogPublisher" EntitySet="lwg_CatalogPublisher" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogTitle_lwg_Catalog" Association="Self.FK_lwg_CatalogTitle_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogTitle" EntitySet="lwg_CatalogTitle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogTitle_lwg_InstrTitle" Association="Self.FK_lwg_CatalogTitle_lwg_InstrTitle">
+      <End Role="lwg_InstrTitle" EntitySet="lwg_InstrTitle" />
+      <End Role="lwg_CatalogTitle" EntitySet="lwg_CatalogTitle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogTitleSearch_lwg_Catalog" Association="Self.FK_lwg_CatalogTitleSearch_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogTitleSearch" EntitySet="lwg_CatalogTitleSearch" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_InstrTitle_lwg_TitleType" Association="Self.FK_lwg_InstrTitle_lwg_TitleType">
+      <End Role="lwg_TitleType" EntitySet="lwg_TitleType" />
+      <End Role="lwg_InstrTitle" EntitySet="lwg_InstrTitle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_PeriodMapping_lwg_Catalog" Association="Self.FK_lwg_PeriodMapping_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_PeriodMapping" EntitySet="lwg_PeriodMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_PeriodMapping_lwg_Period" Association="Self.FK_lwg_PeriodMapping_lwg_Period">
+      <End Role="lwg_Period" EntitySet="lwg_Period" />
+      <End Role="lwg_PeriodMapping" EntitySet="lwg_PeriodMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_PersonInRole_lwg_Catalog" Association="Self.FK_lwg_PersonInRole_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_PersonInRole" EntitySet="lwg_PersonInRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_PersonInRole_lwg_Person" Association="Self.FK_lwg_PersonInRole_lwg_Person">
+      <End Role="lwg_Person" EntitySet="lwg_Person" />
+      <End Role="lwg_PersonInRole" EntitySet="lwg_PersonInRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_PersonInRole_lwg_Role1" Association="Self.FK_lwg_PersonInRole_lwg_Role1">
+      <End Role="lwg_Role" EntitySet="lwg_Role" />
+      <End Role="lwg_PersonInRole" EntitySet="lwg_PersonInRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_ReprintSourceMaping_lwg_Catalog" Association="Self.FK_lwg_ReprintSourceMaping_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_ReprintSourceMapping" EntitySet="lwg_ReprintSourceMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_ReprintSourceMaping_lwg_ReprintSource" Association="Self.FK_lwg_ReprintSourceMaping_lwg_ReprintSource">
+      <End Role="lwg_ReprintSource" EntitySet="lwg_ReprintSource" />
+      <End Role="lwg_ReprintSourceMapping" EntitySet="lwg_ReprintSourceMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_SeriesMapping_lwg_Catalog" Association="Self.FK_lwg_SeriesMapping_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_SeriesMapping" EntitySet="lwg_SeriesMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_SeriesMapping_lwg_Series" Association="Self.FK_lwg_SeriesMapping_lwg_Series">
+      <End Role="lwg_Series" EntitySet="lwg_Series" />
+      <End Role="lwg_SeriesMapping" EntitySet="lwg_SeriesMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_Video_lwg_Catalog" Association="Self.FK_lwg_Video_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_Video" EntitySet="lwg_Video" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

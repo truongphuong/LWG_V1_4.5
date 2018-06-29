@@ -1,0 +1,11 @@
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\bin\Debug\UrlRewritingNet.UrlRewriter.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\bin\Debug\UrlRewritingNet.UrlRewriter.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\obj\Debug\UrlRewritingNet.UrlRewriter.csproj.CoreCompileInputs.cache
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\obj\Debug\UrlRewritingNet.UrlRewriter.dll
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\obj\Debug\UrlRewritingNet.UrlRewriter.pdb
+H:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\obj\Debug\UrlRewritingNet.UrlRewriter.csprojResolveAssemblyReference.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\bin\Debug\UrlRewritingNet.UrlRewriter.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\bin\Debug\UrlRewritingNet.UrlRewriter.pdb
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\obj\Debug\UrlRewritingNet.UrlRewriter.csproj.CoreCompileInputs.cache
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\obj\Debug\UrlRewritingNet.UrlRewriter.dll
+D:\Project\LWG_V1\trunk\NopCommerce\Libraries\UrlRewritingNet.UrlRewriter\obj\Debug\UrlRewritingNet.UrlRewriter.pdb

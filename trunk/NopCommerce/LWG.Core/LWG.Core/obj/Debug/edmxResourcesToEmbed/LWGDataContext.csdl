@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LWGDataContext" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="lwg_Audio">
+    <Key>
+      <PropertyRef Name="AudioId" />
+    </Key>
+    <Property Name="AudioId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CatalogId" Type="Int32" Nullable="false" />
+    <Property Name="SoundFile" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.FK_lwg_Audio_lwg_Catalog" FromRole="lwg_Audio" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_Catalog">
+    <Key>
+      <PropertyRef Name="CatalogId" />
+    </Key>
+    <Property Name="CatalogId" Type="Int32" Nullable="false" />
+    <Property Name="CatalogNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TitleDisplay" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="TitleList" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="TitleSort" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Subtitle" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Duration" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Grade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TextLang" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FSCprodcode" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="PTSprodcode" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="recid" Type="Int32" />
+    <Property Name="KaldbNumber" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Format1" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format2" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format3" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format4" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format5" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format6" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format7" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format8" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format9" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Format10" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Price1" Type="Double" />
+    <Property Name="Price2" Type="Double" />
+    <Property Name="Price3" Type="Double" />
+    <Property Name="Price4" Type="Double" />
+    <Property Name="Price5" Type="Double" />
+    <Property Name="Price6" Type="Double" />
+    <Property Name="Price7" Type="Double" />
+    <Property Name="Price8" Type="Double" />
+    <Property Name="Price9" Type="Double" />
+    <Property Name="Price10" Type="Double" />
+    <Property Name="SoundFile1" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile2" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile3" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile4" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile5" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile6" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile7" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile8" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile9" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile10" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile11" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile12" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile13" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile14" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundFile15" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SoundIcon" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="QTFile1" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile2" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile3" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile4" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile5" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile6" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile7" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile8" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile9" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile10" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="QTFile11" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track01" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track02" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track03" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track04" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track05" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track06" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track07" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track08" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track09" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Track10" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Xform1" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Xform2" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Xform3" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Xform4" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Xform5" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="PDF" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="pages" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ReprintSourceId" Type="Int32" />
+    <Property Name="ArrangerGroupId" Type="Int32" />
+    <Property Name="PeriodId" Type="Int32" />
+    <Property Name="InstrumentalId" Type="Int32" />
+    <Property Name="SeriesId" Type="Int32" />
+    <Property Name="Blurb" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="S4MasterSeries" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="S5MasterCategories" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="InstrDetail" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="VocAccomp" Type="Boolean" />
+    <Property Name="Year" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TableofContents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CopyrightYear" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="lwg_Audio" Relationship="Self.FK_lwg_Audio_lwg_Catalog" FromRole="lwg_Catalog" ToRole="lwg_Audio" />
+    <NavigationProperty Name="lwg_Instrumental" Relationship="Self.FK_lwg_Catalog_lwg_Instrumental" FromRole="lwg_Catalog" ToRole="lwg_Instrumental" />
+    <NavigationProperty Name="lwg_CatalogInstrumentSearch" Relationship="Self.FK_lwg_CatalogInstrumentSearch_lwg_Catalog" FromRole="lwg_Catalog" ToRole="lwg_CatalogInstrumentSearch" />
+    <NavigationProperty Name="lwg_CatalogNameSearch" Relationship="Self.FK_lwg_CatalogNameSearch_lwg_Catalog" FromRole="lwg_Catalog" ToRole="lwg_CatalogNameSearch" />
+    <NavigationProperty Name="lwg_CatalogTitleSearch" Relationship="Self.FK_lwg_CatalogTitleSearch_lwg_Catalog" FromRole="lwg_Catalog" ToRole="lwg_CatalogTitleSearch" />
+    <NavigationProperty Name="lwg_PersonInRole" Relationship="Self.FK_lwg_PersonInRole_lwg_Catalog" FromRole="lwg_Catalog" ToRole="lwg_PersonInRole" />
+    <NavigationProperty Name="lwg_Video" Relationship="Self.FK_lwg_Video_lwg_Catalog" FromRole="lwg_Catalog" ToRole="lwg_Video" />
+    <NavigationProperty Name="lwg_Genre" Relationship="Self.lwg_CatalogGenre" FromRole="lwg_Catalog" ToRole="lwg_Genre" />
+    <NavigationProperty Name="lwg_Publisher" Relationship="Self.lwg_CatalogPublisher" FromRole="lwg_Catalog" ToRole="lwg_Publisher" />
+    <NavigationProperty Name="lwg_InstrTitle" Relationship="Self.lwg_CatalogTitle" FromRole="lwg_Catalog" ToRole="lwg_InstrTitle" />
+    <NavigationProperty Name="lwg_Period" Relationship="Self.lwg_PeriodMapping" FromRole="lwg_Catalog" ToRole="lwg_Period" />
+    <NavigationProperty Name="lwg_ReprintSource" Relationship="Self.lwg_ReprintSourceMapping" FromRole="lwg_Catalog" ToRole="lwg_ReprintSource" />
+    <NavigationProperty Name="lwg_Series" Relationship="Self.lwg_SeriesMapping" FromRole="lwg_Catalog" ToRole="lwg_Series" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogInstrumentSearch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CatalogId" Type="Int32" Nullable="false" />
+    <Property Name="IntrText" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.FK_lwg_CatalogInstrumentSearch_lwg_Catalog" FromRole="lwg_CatalogInstrumentSearch" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogNameSearch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CatalogId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.FK_lwg_CatalogNameSearch_lwg_Catalog" FromRole="lwg_CatalogNameSearch" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_CatalogTitleSearch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CatalogId" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.FK_lwg_CatalogTitleSearch_lwg_Catalog" FromRole="lwg_CatalogTitleSearch" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_Dealer">
+    <Key>
+      <PropertyRef Name="DealerID" />
+    </Key>
+    <Property Name="DealerID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="400" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AddressLine1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="AddressLine2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Zip" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="WebAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Contact" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NewIssue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AddressSearch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="lwg_Genre">
+    <Key>
+      <PropertyRef Name="GerneId" />
+    </Key>
+    <Property Name="GerneId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.lwg_CatalogGenre" FromRole="lwg_Genre" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_HtmlContent">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="ContentHtml" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IsDelete" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_InstrTitle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TitleTypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="lwg_TitleType" Relationship="Self.FK_lwg_InstrTitle_lwg_TitleType" FromRole="lwg_InstrTitle" ToRole="lwg_TitleType" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.lwg_CatalogTitle" FromRole="lwg_InstrTitle" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_Instrumental">
+    <Key>
+      <PropertyRef Name="InstrumentalId" />
+    </Key>
+    <Property Name="InstrumentalId" Type="Int32" Nullable="false" />
+    <Property Name="ShortName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LongName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.FK_lwg_Catalog_lwg_Instrumental" FromRole="lwg_Instrumental" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_LicenseForm">
+    <Key>
+      <PropertyRef Name="LicenseID" />
+    </Key>
+    <Property Name="LicenseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LicenseType" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="State" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Zipcode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IsDelete" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_Period">
+    <Key>
+      <PropertyRef Name="PeriodId" />
+    </Key>
+    <Property Name="PeriodId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.lwg_PeriodMapping" FromRole="lwg_Period" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_Person">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="Int32" Nullable="false" />
+    <Property Name="NameDisplay" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NameList" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NameSort" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DOB" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DOD" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Biography" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstLetter" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PictureID" Type="Int32" />
+    <NavigationProperty Name="lwg_PersonInRole" Relationship="Self.FK_lwg_PersonInRole_lwg_Person" FromRole="lwg_Person" ToRole="lwg_PersonInRole" />
+  </EntityType>
+  <EntityType Name="lwg_PersonInRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="PersonId" Type="Int32" Nullable="false" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="CatalogId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.FK_lwg_PersonInRole_lwg_Catalog" FromRole="lwg_PersonInRole" ToRole="lwg_Catalog" />
+    <NavigationProperty Name="lwg_Person" Relationship="Self.FK_lwg_PersonInRole_lwg_Person" FromRole="lwg_PersonInRole" ToRole="lwg_Person" />
+    <NavigationProperty Name="lwg_Role" Relationship="Self.FK_lwg_PersonInRole_lwg_Role1" FromRole="lwg_PersonInRole" ToRole="lwg_Role" />
+  </EntityType>
+  <EntityType Name="lwg_Publisher">
+    <Key>
+      <PropertyRef Name="PublisherId" />
+    </Key>
+    <Property Name="PublisherId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.lwg_CatalogPublisher" FromRole="lwg_Publisher" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_ReprintSource">
+    <Key>
+      <PropertyRef Name="ReprintSourceId" />
+    </Key>
+    <Property Name="ReprintSourceId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.lwg_ReprintSourceMapping" FromRole="lwg_ReprintSource" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_Role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="lwg_PersonInRole" Relationship="Self.FK_lwg_PersonInRole_lwg_Role1" FromRole="lwg_Role" ToRole="lwg_PersonInRole" />
+  </EntityType>
+  <EntityType Name="lwg_Series">
+    <Key>
+      <PropertyRef Name="SeriesId" />
+    </Key>
+    <Property Name="SeriesId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.lwg_SeriesMapping" FromRole="lwg_Series" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="lwg_ShippingConvertionConfig">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PriceFrom" Type="Int32" Nullable="false" />
+    <Property Name="PriceTo" Type="Int32" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ChargeWeight" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lwg_TitleType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="lwg_InstrTitle" Relationship="Self.FK_lwg_InstrTitle_lwg_TitleType" FromRole="lwg_TitleType" ToRole="lwg_InstrTitle" />
+  </EntityType>
+  <EntityType Name="lwg_Video">
+    <Key>
+      <PropertyRef Name="VideoId" />
+    </Key>
+    <Property Name="VideoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CatalogId" Type="Int32" Nullable="false" />
+    <Property Name="QTFile" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="lwg_Catalog" Relationship="Self.FK_lwg_Video_lwg_Catalog" FromRole="lwg_Video" ToRole="lwg_Catalog" />
+  </EntityType>
+  <EntityType Name="Nop_EmailDirectory">
+    <Key>
+      <PropertyRef Name="EmailID" />
+    </Key>
+    <Property Name="EmailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="JobTitle" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="PictureID" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_lwg_Audio_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="lwg_Audio" Type="Self.lwg_Audio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_Audio">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_Catalog_lwg_Instrumental">
+    <End Role="lwg_Instrumental" Type="Self.lwg_Instrumental" Multiplicity="0..1" />
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Instrumental">
+        <PropertyRef Name="InstrumentalId" />
+      </Principal>
+      <Dependent Role="lwg_Catalog">
+        <PropertyRef Name="InstrumentalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogInstrumentSearch_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogInstrumentSearch" Type="Self.lwg_CatalogInstrumentSearch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogInstrumentSearch">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogNameSearch_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogNameSearch" Type="Self.lwg_CatalogNameSearch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogNameSearch">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_CatalogTitleSearch_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_CatalogTitleSearch" Type="Self.lwg_CatalogTitleSearch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_CatalogTitleSearch">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_PersonInRole_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1" />
+    <End Role="lwg_PersonInRole" Type="Self.lwg_PersonInRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_PersonInRole">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_Video_lwg_Catalog">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="lwg_Video" Type="Self.lwg_Video" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Catalog">
+        <PropertyRef Name="CatalogId" />
+      </Principal>
+      <Dependent Role="lwg_Video">
+        <PropertyRef Name="CatalogId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_InstrTitle_lwg_TitleType">
+    <End Role="lwg_TitleType" Type="Self.lwg_TitleType" Multiplicity="1" />
+    <End Role="lwg_InstrTitle" Type="Self.lwg_InstrTitle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_TitleType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="lwg_InstrTitle">
+        <PropertyRef Name="TitleTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_PersonInRole_lwg_Person">
+    <End Role="lwg_Person" Type="Self.lwg_Person" Multiplicity="1" />
+    <End Role="lwg_PersonInRole" Type="Self.lwg_PersonInRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Person">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="lwg_PersonInRole">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_lwg_PersonInRole_lwg_Role1">
+    <End Role="lwg_Role" Type="Self.lwg_Role" Multiplicity="1" />
+    <End Role="lwg_PersonInRole" Type="Self.lwg_PersonInRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lwg_Role">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="lwg_PersonInRole">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="lwg_CatalogGenre">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="*" />
+    <End Role="lwg_Genre" Type="Self.lwg_Genre" Multiplicity="*" />
+  </Association>
+  <Association Name="lwg_CatalogPublisher">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="*" />
+    <End Role="lwg_Publisher" Type="Self.lwg_Publisher" Multiplicity="*" />
+  </Association>
+  <Association Name="lwg_CatalogTitle">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="*" />
+    <End Role="lwg_InstrTitle" Type="Self.lwg_InstrTitle" Multiplicity="*" />
+  </Association>
+  <Association Name="lwg_PeriodMapping">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="*" />
+    <End Role="lwg_Period" Type="Self.lwg_Period" Multiplicity="*" />
+  </Association>
+  <Association Name="lwg_ReprintSourceMapping">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="*" />
+    <End Role="lwg_ReprintSource" Type="Self.lwg_ReprintSource" Multiplicity="*" />
+  </Association>
+  <Association Name="lwg_SeriesMapping">
+    <End Role="lwg_Catalog" Type="Self.lwg_Catalog" Multiplicity="*" />
+    <End Role="lwg_Series" Type="Self.lwg_Series" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="LudwigMasterEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="lwg_Audio" EntityType="Self.lwg_Audio" />
+    <EntitySet Name="lwg_Catalog" EntityType="Self.lwg_Catalog" />
+    <EntitySet Name="lwg_CatalogInstrumentSearch" EntityType="Self.lwg_CatalogInstrumentSearch" />
+    <EntitySet Name="lwg_CatalogNameSearch" EntityType="Self.lwg_CatalogNameSearch" />
+    <EntitySet Name="lwg_CatalogTitleSearch" EntityType="Self.lwg_CatalogTitleSearch" />
+    <EntitySet Name="lwg_Dealer" EntityType="Self.lwg_Dealer" />
+    <EntitySet Name="lwg_Genre" EntityType="Self.lwg_Genre" />
+    <EntitySet Name="lwg_HtmlContent" EntityType="Self.lwg_HtmlContent" />
+    <EntitySet Name="lwg_InstrTitle" EntityType="Self.lwg_InstrTitle" />
+    <EntitySet Name="lwg_Instrumental" EntityType="Self.lwg_Instrumental" />
+    <EntitySet Name="lwg_LicenseForm" EntityType="Self.lwg_LicenseForm" />
+    <EntitySet Name="lwg_Period" EntityType="Self.lwg_Period" />
+    <EntitySet Name="lwg_Person" EntityType="Self.lwg_Person" />
+    <EntitySet Name="lwg_PersonInRole" EntityType="Self.lwg_PersonInRole" />
+    <EntitySet Name="lwg_Publisher" EntityType="Self.lwg_Publisher" />
+    <EntitySet Name="lwg_ReprintSource" EntityType="Self.lwg_ReprintSource" />
+    <EntitySet Name="lwg_Role" EntityType="Self.lwg_Role" />
+    <EntitySet Name="lwg_Series" EntityType="Self.lwg_Series" />
+    <EntitySet Name="lwg_ShippingConvertionConfig" EntityType="Self.lwg_ShippingConvertionConfig" />
+    <EntitySet Name="lwg_TitleType" EntityType="Self.lwg_TitleType" />
+    <EntitySet Name="lwg_Video" EntityType="Self.lwg_Video" />
+    <EntitySet Name="Nop_EmailDirectory" EntityType="Self.Nop_EmailDirectory" />
+    <AssociationSet Name="FK_lwg_Audio_lwg_Catalog" Association="Self.FK_lwg_Audio_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_Audio" EntitySet="lwg_Audio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_Catalog_lwg_Instrumental" Association="Self.FK_lwg_Catalog_lwg_Instrumental">
+      <End Role="lwg_Instrumental" EntitySet="lwg_Instrumental" />
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogInstrumentSearch_lwg_Catalog" Association="Self.FK_lwg_CatalogInstrumentSearch_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogInstrumentSearch" EntitySet="lwg_CatalogInstrumentSearch" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogNameSearch_lwg_Catalog" Association="Self.FK_lwg_CatalogNameSearch_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogNameSearch" EntitySet="lwg_CatalogNameSearch" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_CatalogTitleSearch_lwg_Catalog" Association="Self.FK_lwg_CatalogTitleSearch_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_CatalogTitleSearch" EntitySet="lwg_CatalogTitleSearch" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_PersonInRole_lwg_Catalog" Association="Self.FK_lwg_PersonInRole_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_PersonInRole" EntitySet="lwg_PersonInRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_Video_lwg_Catalog" Association="Self.FK_lwg_Video_lwg_Catalog">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_Video" EntitySet="lwg_Video" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_InstrTitle_lwg_TitleType" Association="Self.FK_lwg_InstrTitle_lwg_TitleType">
+      <End Role="lwg_TitleType" EntitySet="lwg_TitleType" />
+      <End Role="lwg_InstrTitle" EntitySet="lwg_InstrTitle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_PersonInRole_lwg_Person" Association="Self.FK_lwg_PersonInRole_lwg_Person">
+      <End Role="lwg_Person" EntitySet="lwg_Person" />
+      <End Role="lwg_PersonInRole" EntitySet="lwg_PersonInRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_lwg_PersonInRole_lwg_Role1" Association="Self.FK_lwg_PersonInRole_lwg_Role1">
+      <End Role="lwg_Role" EntitySet="lwg_Role" />
+      <End Role="lwg_PersonInRole" EntitySet="lwg_PersonInRole" />
+    </AssociationSet>
+    <AssociationSet Name="lwg_CatalogGenre" Association="Self.lwg_CatalogGenre">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_Genre" EntitySet="lwg_Genre" />
+    </AssociationSet>
+    <AssociationSet Name="lwg_CatalogPublisher" Association="Self.lwg_CatalogPublisher">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_Publisher" EntitySet="lwg_Publisher" />
+    </AssociationSet>
+    <AssociationSet Name="lwg_CatalogTitle" Association="Self.lwg_CatalogTitle">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_InstrTitle" EntitySet="lwg_InstrTitle" />
+    </AssociationSet>
+    <AssociationSet Name="lwg_PeriodMapping" Association="Self.lwg_PeriodMapping">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_Period" EntitySet="lwg_Period" />
+    </AssociationSet>
+    <AssociationSet Name="lwg_ReprintSourceMapping" Association="Self.lwg_ReprintSourceMapping">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_ReprintSource" EntitySet="lwg_ReprintSource" />
+    </AssociationSet>
+    <AssociationSet Name="lwg_SeriesMapping" Association="Self.lwg_SeriesMapping">
+      <End Role="lwg_Catalog" EntitySet="lwg_Catalog" />
+      <End Role="lwg_Series" EntitySet="lwg_Series" />
+    </AssociationSet>
+    <EntitySet Name="Nop_Category" EntityType="LWGDataContext.Nop_Category" />
+  </EntityContainer>
+  <EntityType Name="Nop_Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TemplateID" Type="Int32" Nullable="false" />
+    <Property Name="MetaKeywords" Type="String" Nullable="false" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="MetaDescription" Type="String" Nullable="false" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="MetaTitle" Type="String" Nullable="false" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="SEName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ParentCategoryID" Type="Int32" Nullable="false" />
+    <Property Name="PictureID" Type="Int32" Nullable="false" />
+    <Property Name="PageSize" Type="Int32" Nullable="false" />
+    <Property Name="PriceRanges" Type="String" Nullable="false" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="ShowOnHomePage" Type="Boolean" Nullable="false" />
+    <Property Name="Published" Type="Boolean" Nullable="false" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+    <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedOn" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+</Schema>
